@@ -1,0 +1,9 @@
+#+TITLE: TIL-Emacs
+#+AUTHOR: Abhinav Tushar
+#+EMAIL: abhinav.tushar.vs@gmail.com
+
+/Today I learned, Emacs version. Inspired by [[https://github.com/jbranchaud/til][jbranchaud/til]]./
+
++ *mpc*
+
+  There is a pretty nifty [[https://www.musicpd.org/][mpd]] client built into Emacs. Use ~M-x mpc~.
