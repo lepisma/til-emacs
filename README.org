@@ -4,6 +4,11 @@
 
 /Today I learned, Emacs version. Inspired by [[https://github.com/jbranchaud/til][jbranchaud/til]]./
 
++ *org-contacts*
+
+  You can use [[https://julien.danjou.info/projects/emacs-packages#org-contacts][org-contacts]] from org-contrib to manage contacts. This is really
+  neat considering it integrates with gnus.
+
 + *mpc*
 
   There is a pretty nifty [[https://www.musicpd.org/][mpd]] client built into Emacs. Use ~M-x mpc~.
