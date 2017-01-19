@@ -4,6 +4,12 @@
 
 /Today I learned, Emacs version. Inspired by [[https://github.com/jbranchaud/til][jbranchaud/til]]./
 
++ *data structures*
+
+  I never went beyond list. Knew about [[https://www.gnu.org/software/emacs/manual/html_node/elisp/Association-Lists.html][alists]], but didn't know there are
+  [[https://www.gnu.org/software/emacs/manual/html_node/elisp/Hash-Tables.html][hash tables]] and [[https://www.gnu.org/software/emacs/manual/html_node/elisp/Vectors.html][vectors]] too. In case you are working with key-value pairs in
+  either hash table or alist form, try [[https://github.com/Wilfred/ht.el][ht.el]].
+
 + *org-contacts*
 
   You can use [[https://julien.danjou.info/projects/emacs-packages#org-contacts][org-contacts]] from org-contrib to manage contacts. This is really
