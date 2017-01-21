@@ -4,6 +4,14 @@
 
 /Today I learned, Emacs version. Inspired by [[https://github.com/jbranchaud/til][jbranchaud/til]]./
 
++ *elisp scripts*
+  
+  Using Emacs for general purpose scripting has multiple issues. Many are
+  documented [[http://www.lunaryorn.com/posts/emacs-script-pitfalls.html#section-inhibiting-site-start][here]]. For me, package loading is a major one. A lot of
+  /not-inside-emacs/ scripts wont be helpful without packages like [[https://github.com/rejeep/f.el][f]], [[https://github.com/magnars/dash.el][dash]] and
+  [[https://github.com/magnars/s.el][s]]. [[https://github.com/cask/cask][cask]] provides a way out. Init a caskfile (~cask init~), install
+  dependencies (~cask install~), run (~cask emacs --script something.el~).
+
 + *data structures*
 
   I never went beyond list. Knew about [[https://www.gnu.org/software/emacs/manual/html_node/elisp/Association-Lists.html][alists]], but didn't know there are
