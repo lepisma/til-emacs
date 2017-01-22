@@ -2,7 +2,16 @@
 #+AUTHOR: Abhinav Tushar
 #+EMAIL: abhinav.tushar.vs@gmail.com
 
-/Today I learned, Emacs version. Inspired by [[https://github.com/jbranchaud/til][jbranchaud/til]]./
+/Today I learned, Emacs version. More of a mini blog. Inspired by
+[[https://github.com/jbranchaud/til][jbranchaud/til]]./
+
++ *kill-ring*
+
+  Recently stopped using CUA keybindings. This opened me up to use the
+  kill-ring, which is a list with kill (cut, copy) history. Simple cut, copy,
+  paste are ~C-w~ (/kill/), ~M-w~ (/kill-save/) and ~C-y~ (/yank/). Cycle
+  through the ring while yanking using ~M-y~. Use ~helm-show-kill-ring~ for a
+  better kill-ring browsing experience.
 
 + *elisp scripts*
   
