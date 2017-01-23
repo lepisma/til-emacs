@@ -5,6 +5,12 @@
 /Today I learned, Emacs version. More of a mini blog. Inspired by
 [[https://github.com/jbranchaud/til][jbranchaud/til]]./
 
++ *form feed lines*
+
+  Many popular elisp source files get rendered in spacemacs with sections
+  separated by neat horizontal lines. TIL those are form feed characters ~^L~
+  and are rendered using packages like [[https://github.com/purcell/page-break-lines][page-break-lines]].
+
 + *kill-ring*
 
   Recently stopped using CUA keybindings. This opened me up to use the
