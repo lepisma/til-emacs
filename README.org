@@ -5,6 +5,11 @@
 /Today I learned, Emacs version. More of a mini blog. Inspired by
 [[https://github.com/jbranchaud/til][jbranchaud/til]]./
 
++ *external functions in org tables*
+
+  Any babel code block returning value can be referenced by its ~name~ and
+  called as a function for org tables. More details [[http://ehneilsen.net/notebook/orgExamples/org-examples.html#sec-8][here]].
+
 + *form feed lines*
 
   Many popular elisp source files get rendered in spacemacs with sections
