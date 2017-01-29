@@ -5,6 +5,12 @@
 /Today I learned, Emacs version. More of a mini blog. Inspired by
 [[https://github.com/jbranchaud/til][jbranchaud/til]]./
 
++ *edit file properties in dired*
+
+  Dired allows a special mode, wdired (~C-x C-q~), that lets dired buffer
+  editings -- like renaming files, changing permissions, etc. -- get reflected
+  to the file system. More details [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Wdired.html#Wdired][here]].
+
 + *external functions in org tables*
 
   Any babel code block returning value can be referenced by its ~name~ and
