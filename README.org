@@ -5,6 +5,11 @@
 /Today I learned, Emacs version. More of a mini blog. Inspired by
 [[https://github.com/jbranchaud/til][jbranchaud/til]]./
 
++ *smerge*
+
+  ~smerge-mode~ allows easy conflict resolution for merges. Move pointer to the
+  conflict and use ~smerge-keep-mine~ / ~smerge-keep-other~.
+
 + *edit file properties in dired*
 
   Dired allows a special mode, wdired (~C-x C-q~), that lets dired buffer
