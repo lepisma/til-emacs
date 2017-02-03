@@ -5,6 +5,12 @@
 /Today I learned, Emacs version. More of a mini blog. Inspired by
 [[https://github.com/jbranchaud/til][jbranchaud/til]]./
 
++ *getting mouse position*
+
+  There are functions to get current position of mouse both in terms of
+  pixels ~mouse-pixel-position~ and characters ~mouse-position~ relative to
+  current frame (or absolute ~mouse-absolute-pixel-position~).
+
 + *smerge*
 
   ~smerge-mode~ allows easy conflict resolution for merges. Move pointer to the
