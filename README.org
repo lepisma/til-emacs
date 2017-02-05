@@ -5,6 +5,10 @@
 /Today I learned, Emacs version. More of a mini blog. Inspired by
 [[https://github.com/jbranchaud/til][jbranchaud/til]]./
 
++ *inserting unicode by name*
+
+  ~C-x 8 RET~ lets you search and insert unicode character by Unicode name.
+
 + *getting mouse position*
 
   There are functions to get current position of mouse both in terms of
