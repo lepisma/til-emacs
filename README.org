@@ -5,6 +5,11 @@
 /Today I learned, Emacs version. More of a mini blog. Inspired by
 [[https://github.com/jbranchaud/til][jbranchaud/til]]./
 
++ *lexical scoping*
+
+  Adding ~;;; -*- lexical-binding: t -*-~ to the header enables lexical binding
+  in an elisp source file.
+
 + *inserting unicode by name*
 
   ~C-x 8 RET~ lets you search and insert unicode character by Unicode name.
