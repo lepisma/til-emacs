@@ -5,6 +5,11 @@
 /Today I learned, Emacs version. More of a mini blog. Inspired by
 [[https://github.com/jbranchaud/til][jbranchaud/til]]./
 
++ *ditaa & dot*
+
+  Babel has great support for [[http://ditaa.sourceforge.net/][ditaa]] and [[http://www.graphviz.org/][dot]] snippets, allowing creation of
+  graph, drawings and flowcharts easily.
+
 + *lexical scoping*
 
   Adding ~;;; -*- lexical-binding: t -*-~ to the header enables lexical binding
