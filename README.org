@@ -5,6 +5,20 @@
 /Today I learned, Emacs version. More of a mini blog. Inspired by
 [[https://github.com/jbranchaud/til][jbranchaud/til]]./
 
++ *caching sudo password in eshell*
+
+  Eshell can use tramp's sudo instead of ~/usr/bin/sudo~ and then cache
+  passwords. Setting alias by ~alias sudo 'eshell/sudo $*'~ in eshell after
+  setting up cache does the trick.
+  #+BEGIN_SRC elisp
+    (use-package em-tramp
+      :config
+      (setq eshell-prefer-lisp-functions t)
+      (setq password-cache t)
+      (setq password-cache-expiry 3600))
+  #+END_SRC
+  [[https://emacs.stackexchange.com/questions/5608/how-to-let-eshell-remember-sudo-password-for-two-minutes][Source]]
+
 + *syntax table*
 
   Emacs maintains what are called /syntax table/ for modes which define which
