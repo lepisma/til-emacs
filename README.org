@@ -5,6 +5,12 @@
 /Today I learned, Emacs version. More of a mini blog. Inspired by
 [[https://github.com/jbranchaud/til][jbranchaud/til]]./
 
++ *apropos*
+  
+  Apropos commands (~apropos~, ~apropos-command~ etc.) do full text searches
+  over corresponding components (symbols, commands, etc.) and are powerful and
+  useful than the regular ways.
+
 + *caching sudo password in eshell*
 
   Eshell can use tramp's sudo instead of ~/usr/bin/sudo~ and then cache
