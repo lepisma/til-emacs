@@ -5,6 +5,12 @@
 /Today I learned, Emacs version. More of a mini blog. Inspired by
 [[https://github.com/jbranchaud/til][jbranchaud/til]]./
 
++ *custom agenda views*
+
+  Org agenda view allows custom built views by customizing the variable
+  ~org-agenda-custom-commands~. The customization lets you work with separate
+  files, tags, todo-states and much [[http://orgmode.org/worg/org-tutorials/org-custom-agenda-commands.html][more]].
+
 + *current-prefix-arg*
 
   Setting ~current-prefix-arg~ variable works as ~C-u~ key for the command in
