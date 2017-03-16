@@ -5,6 +5,14 @@
 /Today I learned, Emacs version. More of a mini blog. Inspired by
 [[https://github.com/jbranchaud/til][jbranchaud/til]]./
 
++ *comint mode scroll*
+
+  Comint mode (all the shell-ish processes), by default (in spacemacs at least),
+  shows everything possible whenever a shell output comes out. This results in
+  pushing (scrolling) the current line to the bottom even when you were up
+  somewhere. This can be fixed by setting ~comint-scroll-show-maximum-output~ to
+  ~nil~.
+
 + *custom agenda views*
 
   Org agenda view allows custom built views by customizing the variable
