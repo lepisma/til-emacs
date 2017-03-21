@@ -5,6 +5,18 @@
 /Today I learned, Emacs version. More of a mini blog. Inspired by
 [[https://github.com/jbranchaud/til][jbranchaud/til]]./
 
++ *org-protocol*
+  
+  #+BEGIN_QUOTE
+  org-protocol intercepts calls from emacsclient to trigger custom actions
+  without external dependencies. Only one protocol has to be configured with
+  your external applications or the operating system, to trigger an arbitrary
+  number of custom actions. Just register your custom sub-protocol and handler
+  with the variable `org-protocol-protocol-alist'.
+  #+END_QUOTE
+
+  Taken from [[http://orgmode.org/worg/org-contrib/org-protocol.html#orgheadline4][here]]. Probably the best surprise feature I found till date.
+
 + *comint mode scroll*
 
   Comint mode (all the shell-ish processes), by default (in spacemacs at least),
