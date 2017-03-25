@@ -5,6 +5,11 @@
 /Today I learned, Emacs version. More of a mini blog. Inspired by
 [[https://github.com/jbranchaud/til][jbranchaud/til]]./
 
++ *eieio*
+
+  Emacs Lisp has an Object Oriented Programming system called
+  [[https://www.gnu.org/software/emacs/manual/eieio.html][EIEIO]] mimicking Common Lisp Object System.
+
 + *org-protocol*
   
   #+BEGIN_QUOTE
