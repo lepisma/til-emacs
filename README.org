@@ -5,6 +5,10 @@
 /Today I learned, Emacs version. More of a mini blog. Inspired by
 [[https://github.com/jbranchaud/til][jbranchaud/til]]./
 
++ *highlight-regexp*
+
+  Highlight a regexp in buffer with certain color using ~highlight-regexp~.
+
 + *eieio*
 
   Emacs Lisp has an Object Oriented Programming system called
