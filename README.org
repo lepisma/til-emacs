@@ -5,6 +5,11 @@
 /Today I learned, Emacs version. More of a mini blog. Inspired by
 [[https://github.com/jbranchaud/til][jbranchaud/til]]./
 
++ *advising functions*
+
+  Elisp lets you /add/ a custom behavior on an already existing function
+  using the [[https://www.gnu.org/software/emacs/manual/html_node/elisp/Advising-Functions.html#Advising-Functions][advising facility]].
+
 + *highlight-regexp*
 
   Highlight a regexp in buffer with certain color using ~highlight-regexp~.
