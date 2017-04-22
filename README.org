@@ -5,6 +5,11 @@
 /Today I learned, Emacs version. More of a mini blog. Inspired by
 [[https://github.com/jbranchaud/til][jbranchaud/til]]./
 
++ *latex fragment preview*
+
+  Latex code snippets can be previewed directly in org-mode using
+  ~org-toggle-latex-fragment~.
+
 + *dired drag and drop*
 
   Dropping a file to a dired buffer copies stuff to it.
