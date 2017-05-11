@@ -6,6 +6,10 @@
 [[https://github.com/jbranchaud/til][jbranchaud/til]]./
 
 
++ *re-builder*
+
+  Emacs lets you check regex on the fly in current buffer using ~re-builder~.
+
 + *obarray*
 
   ~obarray~ refers to a vector of symbols which are interned and is used for
