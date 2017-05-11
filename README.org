@@ -5,6 +5,12 @@
 /Today I learned, Emacs version. More of a mini blog. Inspired by
 [[https://github.com/jbranchaud/til][jbranchaud/til]]./
 
+
++ *obarray*
+
+  ~obarray~ refers to a vector of symbols which are interned and is used for
+  looking up value of symbols.
+
 + *latex fragment preview*
 
   Latex code snippets can be previewed directly in org-mode using
