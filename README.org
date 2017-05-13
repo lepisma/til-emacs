@@ -6,6 +6,10 @@
 [[https://github.com/jbranchaud/til][jbranchaud/til]]./
 
 
++ *file-watch*
+
+  ~file-notify-add-watch~ allows hooking up callbacks for file changes.
+
 + *re-builder*
 
   Emacs lets you check regex on the fly in current buffer using ~re-builder~.
