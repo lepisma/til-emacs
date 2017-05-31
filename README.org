@@ -6,6 +6,11 @@
 [[https://github.com/jbranchaud/til][jbranchaud/til]]./
 
 
++ *winner-mode*
+
+  Probably too late to know about it. Winner mode lets you undo/redo window
+  configuration.
+
 + *file-watch*
 
   ~file-notify-add-watch~ allows hooking up callbacks for file changes.
