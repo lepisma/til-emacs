@@ -5,6 +5,10 @@
 /Today I learned, Emacs version. More of a mini blog. Inspired by
 [[https://github.com/jbranchaud/til][jbranchaud/til]]./
 
++ *common lisp emulation*
+
+  Elisp can simulate many features of common lisp, including full fledged
+  function arguments, using the ~cl~ package.
 
 + *winner-mode*
 
