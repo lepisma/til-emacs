@@ -5,6 +5,11 @@
 /Today I learned, Emacs version. More of a mini blog. Inspired by
 [[https://github.com/jbranchaud/til][jbranchaud/til]]./
 
++ *undo-tree*
+
+  [[https://elpa.gnu.org/packages/undo-tree.html][undo-tree]] maintains a tree instead of a linear undo/redo history. Wish there
+  was something similar for krita/gimp.
+
 + *org-store-link*
 
   Special bookmarks to [[http://orgmode.org/manual/Handling-links.html][different]] modes can be saved in org files using
