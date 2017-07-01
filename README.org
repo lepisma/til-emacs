@@ -5,6 +5,11 @@
 /Today I learned, Emacs version. More of a mini blog. Inspired by
 [[https://github.com/jbranchaud/til][jbranchaud/til]]./
 
++ *rectangle insert*
+
+  Iedit has a ~iedit-rectangle-mode~ which lets edit vertical chunks. Handy for
+  enforcing indentation over a section.
+
 + *undo-tree*
 
   [[https://elpa.gnu.org/packages/undo-tree.html][undo-tree]] maintains a tree instead of a linear undo/redo history. Wish there
