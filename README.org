@@ -5,6 +5,12 @@
 /Today I learned, Emacs version. More of a mini blog. Inspired by
 [[https://github.com/jbranchaud/til][jbranchaud/til]]./
 
++ *narrow region*
+
+  Narrowing allows showing only a certain part of a buffer instead of full
+  content. This lets you work on the narrowed region without affecting other
+  stuff.
+
 + *org-edit-special*
 
   Special chunks in org mode like babel source blocks can be edited in a
