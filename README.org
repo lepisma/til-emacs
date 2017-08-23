@@ -5,6 +5,11 @@
 /Today I learned, Emacs version. More of a mini blog. Inspired by
 [[https://github.com/jbranchaud/til][jbranchaud/til]]./
 
++ *capturing buffer bookmarks*
+
+  Org capture has templates (~%a~, ~%A~ etc.) for capturing the location where the
+  org-capture was called. This comes in handy with emails, todos in code etc.
+
 + *narrow region*
 
   Narrowing allows showing only a certain part of a buffer instead of full
