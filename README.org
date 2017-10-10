@@ -2,8 +2,13 @@
 #+AUTHOR: Abhinav Tushar
 #+EMAIL: abhinav.tushar.vs@gmail.com
 
-/Today I learned, Emacs version. More of a mini blog. Inspired by
-[[https://github.com/jbranchaud/til][jbranchaud/til]]./
+/Today I learned, Emacs version. More of a mini blog. Inspired by [[https://github.com/jbranchaud/til][jbranchaud/til]]./
+
++ *literate configuration*
+
+  Using ~org-babel-load-file~, you can load emacs-lisp snippets from an org file.
+  This is great for maintaining readable configuration like done in
+  [[https://github.com/eschulte/emacs24-starter-kit][emacs24-starter-kit]].
 
 + *image tooltips*
 
