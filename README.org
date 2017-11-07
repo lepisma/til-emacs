@@ -4,6 +4,11 @@
 
 /Today I learned, Emacs version. More of a mini blog. Inspired by [[https://github.com/jbranchaud/til][jbranchaud/til]]./
 
++ *reverse variable search*
+
+  Weird but possibly useful. ~apropos-value~ lets you search for variables with
+  provided value.
+
 + *literate configuration*
 
   Using ~org-babel-load-file~, you can load emacs-lisp snippets from an org file.
