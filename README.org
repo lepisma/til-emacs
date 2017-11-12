@@ -4,6 +4,12 @@
 
 /Today I learned, Emacs version. More of a mini blog. Inspired by [[https://github.com/jbranchaud/til][jbranchaud/til]]./
 
++ *gap buffers*
+
+  Emacs internally uses [[https://en.wikipedia.org/wiki/Gap_buffer][gap buffers]] to represent text (in buffers). Current gap
+  values can be accessed using functions ~gap-position~ and ~gap-size~. See the page
+  on [[https://www.gnu.org/software/emacs/manual/html_node/elisp/Buffer-Gap.html][manual]] for more.
+
 + *reverse variable search*
 
   Weird but possibly useful. ~apropos-value~ lets you search for variables with
