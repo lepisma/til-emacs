@@ -4,6 +4,12 @@
 
 /Today I learned, Emacs version. More of a mini blog. Inspired by [[https://github.com/jbranchaud/til][jbranchaud/til]]./
 
++ *two columns*
+
+  [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Two_002dColumn.html][Two column editing]] lets you split the current buffer in two columns
+  (obviously) which are finally merged in one. I am trying to use it for writing
+  sidenotes in org files. Will have issues with org-export though.
+
 + *gap buffers*
 
   Emacs internally uses [[https://en.wikipedia.org/wiki/Gap_buffer][gap buffers]] to represent text (in buffers). Current gap
