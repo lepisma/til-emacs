@@ -4,6 +4,12 @@
 
 /Today I learned, Emacs version. More of a mini blog. Inspired by [[https://github.com/jbranchaud/til][jbranchaud/til]]./
 
+
++ *tail calls*
+
+  Emacs lisp doesn't optimize tail calls. This forces you to use loops (like
+  ~while~) instead of recursion. Two workarounds are [[https://github.com/Wilfred/tco.el][tco]] and [[https://github.com/VincentToups/recur][recur]].
+
 + *two columns*
 
   [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Two_002dColumn.html][Two column editing]] lets you split the current buffer in two columns
