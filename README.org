@@ -5,6 +5,12 @@
 /Today I learned, Emacs version. More of a mini blog. Inspired by [[https://github.com/jbranchaud/til][jbranchaud/til]]./
 
 
++ *calc*
+
+  Emacs has a very elaborate calculator capable even of symbolic mathematics and
+  manipulation. Check [[http://nullprogram.com/blog/2009/06/23/][this blog post]] by Chris to get a feel. I used to call
+  [[https://github.com/sharkdp/insect][insect]] to perform unit conversions, but looks like /calc/ is enough.
+
 + *tail calls*
 
   Emacs lisp doesn't optimize tail calls. This forces you to use loops (like
