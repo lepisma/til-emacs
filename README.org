@@ -5,6 +5,11 @@
 /Today I learned, Emacs version. More of a mini blog. Inspired by [[https://github.com/jbranchaud/til][jbranchaud/til]]./
 
 
++ *benchmark-run*
+
+  Just what you expect. Learnt from [[http://irreal.org/blog/?p=400][here]]. Also check ~benchmark-run-compiled~ if
+  you want to compare compiled elisp performance.
+
 + *calc*
 
   Emacs has a very elaborate calculator capable even of symbolic mathematics and
