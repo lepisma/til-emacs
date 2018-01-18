@@ -5,6 +5,11 @@
 /Today I learned, Emacs version. More of a mini blog. Inspired by [[https://github.com/jbranchaud/til][jbranchaud/til]]./
 
 
++ *org macros*
+
+  Org mode allows simple text replacement macros with arguments for export. See
+  more [[https://orgmode.org/manual/Macro-replacement.html][here]].
+
 + *benchmark-run*
 
   Just what you expect. Learnt from [[http://irreal.org/blog/?p=400][here]]. Also check ~benchmark-run-compiled~ if
