@@ -2,6 +2,8 @@
 #+AUTHOR: Abhinav Tushar
 #+EMAIL: abhinav.tushar.vs@gmail.com
 
+> This page now lives [here](https://lepisma.github.io/pile/emacs/til)
+
 /Today I learned, Emacs version. More of a mini blog. Inspired by [[https://github.com/jbranchaud/til][jbranchaud/til]]./
 
 
